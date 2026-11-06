@@ -1,0 +1,1770 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: gqa-letters
+  elementType: text
+  bounds:
+  - 245.3
+  - 36.0
+  - 272.8
+  - 42.2
+  content:
+    text: <p>GQA with BMB-UV</p>
+    fontSize: 26.4
+    fontFamily: Arial
+    bold: false
+    color: '#202124'
+    align:
+    - center
+    - middle
+    wrap: false
+    lineHeight: 1.12
+- elementId: values-label
+  elementType: text
+  bounds:
+  - 36.0
+  - 124.8
+  - 202.4
+  - 54.6
+  content:
+    text: Values
+    fontSize: 29.9
+    fontFamily: Arial
+    bold: false
+    color: '#202124'
+    align:
+    - left
+    - middle
+    wrap: true
+    lineHeight: 1.12
+- elementId: keys-label
+  elementType: text
+  bounds:
+  - 42.9
+  - 302.3
+  - 202.4
+  - 54.6
+  content:
+    text: Keys
+    fontSize: 29.9
+    fontFamily: Arial
+    bold: false
+    color: '#202124'
+    align:
+    - left
+    - middle
+    wrap: true
+    lineHeight: 1.12
+- elementId: queries-label
+  elementType: text
+  bounds:
+  - 36.7
+  - 494.0
+  - 106.7
+  - 31
+  content:
+    text: Queries
+    fontSize: 29.9
+    fontFamily: Arial
+    bold: false
+    color: '#202124'
+    align:
+    - left
+    - middle
+    wrap: true
+    lineHeight: 1.12
+- elementId: value-1
+  elementType: shape
+  bounds:
+  - 247.1
+  - 110.1
+  - 14
+  - 96.7
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: value-1-hatch-0
+  elementType: line
+  bounds:
+  - 247.8
+  - 111.7
+  - 5.8
+  - 15.4
+  viewBox:
+  - 23.76
+  - 23.76
+  points: 0,23.76 23.76,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-1-hatch-1
+  elementType: line
+  bounds:
+  - 247.8
+  - 111.7
+  - 11.7
+  - 30.8
+  viewBox:
+  - 47.52
+  - 47.52
+  points: 0,47.52 47.52,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-1-hatch-2
+  elementType: line
+  bounds:
+  - 247.8
+  - 124.8
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-1-hatch-3
+  elementType: line
+  bounds:
+  - 247.8
+  - 140.2
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-1-hatch-4
+  elementType: line
+  bounds:
+  - 247.8
+  - 155.5
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-1-hatch-5
+  elementType: line
+  bounds:
+  - 247.8
+  - 171.0
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-1-hatch-6
+  elementType: line
+  bounds:
+  - 253.2
+  - 186.3
+  - 7.2
+  - 18.8
+  viewBox:
+  - 29.04
+  - 29.04
+  points: 29.04,0 0,29.04
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-1-hatch-7
+  elementType: line
+  bounds:
+  - 259.0
+  - 201.8
+  - 1.3
+  - 3.4
+  viewBox:
+  - 5.28
+  - 5.28
+  points: 5.28,0 0,5.28
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: key-outline-1
+  elementType: shape
+  bounds:
+  - 247.1
+  - 272.2
+  - 14
+  - 96.7
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: key-upper-1-hatch-0
+  elementType: line
+  bounds:
+  - 247.8
+  - 273.9
+  - 5.4
+  - 14.2
+  viewBox:
+  - 22
+  - 22
+  points: 0,22 22,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-1-hatch-1
+  elementType: line
+  bounds:
+  - 247.8
+  - 273.9
+  - 10.8
+  - 28.4
+  viewBox:
+  - 44
+  - 44
+  points: 0,44 44,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-1-hatch-2
+  elementType: line
+  bounds:
+  - 251.0
+  - 283.7
+  - 9.3
+  - 24.5
+  viewBox:
+  - 37.84
+  - 37.84
+  points: 37.84,0 0,37.84
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-1-hatch-3
+  elementType: line
+  bounds:
+  - 256.4
+  - 297.9
+  - 3.9
+  - 10.3
+  viewBox:
+  - 15.84
+  - 15.84
+  points: 15.84,0 0,15.84
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-cached-1
+  elementType: shape
+  bounds:
+  - 247.5
+  - 309.4
+  - 13
+  - 58.6
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#B3261E26'
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+  adjustments:
+  - 12000
+- elementId: key-red-1-hatch-0
+  elementType: line
+  bounds:
+  - 248.0
+  - 310.4
+  - 5.4
+  - 14.2
+  viewBox:
+  - 22
+  - 22
+  points: 0,22 22,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-1-hatch-1
+  elementType: line
+  bounds:
+  - 248.0
+  - 310.4
+  - 10.8
+  - 28.4
+  viewBox:
+  - 44
+  - 44
+  points: 0,44 44,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-1-hatch-2
+  elementType: line
+  bounds:
+  - 248.0
+  - 321.2
+  - 12.2
+  - 32
+  viewBox:
+  - 49.28
+  - 49.28
+  points: 0,49.28 49.28,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-1-hatch-3
+  elementType: line
+  bounds:
+  - 248.1
+  - 335.5
+  - 11.9
+  - 31.3
+  viewBox:
+  - 48.4
+  - 48.4
+  points: 48.4,0 0,48.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-1-hatch-4
+  elementType: line
+  bounds:
+  - 253.6
+  - 349.7
+  - 6.5
+  - 17.1
+  viewBox:
+  - 26.4
+  - 26.4
+  points: 26.4,0 0,26.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-1-hatch-5
+  elementType: line
+  bounds:
+  - 259.0
+  - 363.9
+  - 1.1
+  - 2.9
+  viewBox:
+  - 4.4
+  - 4.4
+  points: 4.4,0 0,4.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-to-value-1
+  elementType: line
+  bounds:
+  - 254.0
+  - 206.8
+  - 0.2
+  - 65.4
+  viewBox:
+  - 0.88
+  - 101.2
+  points: 0.44,101.2 0.44,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: key-width-1
+  elementType: line
+  bounds:
+  - 266.1
+  - 309.4
+  - 0.2
+  - 59.9
+  viewBox:
+  - 0.88
+  - 92.4
+  points: 0.44,0 0.44,92.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+  arrow:
+  - arrow
+  - arrow
+- elementId: key-width-1-top
+  elementType: line
+  bounds:
+  - 264.2
+  - 309.4
+  - 3.9
+  - 0.5
+  viewBox:
+  - 15.84
+  - 0.88
+  points: 0,0.44 15.84,0.44
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+- elementId: key-width-1-bottom
+  elementType: line
+  bounds:
+  - 264.2
+  - 369.1
+  - 3.9
+  - 0.5
+  viewBox:
+  - 15.84
+  - 0.88
+  points: 0,0.44 15.84,0.44
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+- elementId: key-s-1
+  elementType: text
+  bounds:
+  - 268.1
+  - 326.3
+  - 7.6
+  - 23.9
+  content:
+    text: \(s\)
+    fontSize: 22
+    fontFamily: Arial
+    bold: false
+    color: '#B3261E'
+    align:
+    - center
+    - middle
+    wrap: true
+    lineHeight: 1.12
+- elementId: query-1-1
+  elementType: shape
+  bounds:
+  - 238.4
+  - 485.8
+  - 13.9
+  - 63.3
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: query-to-key-1-1
+  elementType: line
+  bounds:
+  - 245.3
+  - 369.1
+  - 8.7
+  - 116.7
+  viewBox:
+  - 35.2
+  - 180.4
+  points: 0,180.4 0,132 35.2,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: query-1-2
+  elementType: shape
+  bounds:
+  - 261.0
+  - 485.8
+  - 14.7
+  - 63.3
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: query-to-key-1-2
+  elementType: line
+  bounds:
+  - 254.0
+  - 369.1
+  - 14
+  - 116.7
+  viewBox:
+  - 56.32
+  - 180.4
+  points: 56.32,180.4 56.32,132 0,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: value-2
+  elementType: shape
+  bounds:
+  - 316.5
+  - 110.1
+  - 14
+  - 96.7
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: value-2-hatch-0
+  elementType: line
+  bounds:
+  - 317.2
+  - 111.7
+  - 5.8
+  - 15.4
+  viewBox:
+  - 23.76
+  - 23.76
+  points: 0,23.76 23.76,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-2-hatch-1
+  elementType: line
+  bounds:
+  - 317.2
+  - 111.7
+  - 11.7
+  - 30.8
+  viewBox:
+  - 47.52
+  - 47.52
+  points: 0,47.52 47.52,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-2-hatch-2
+  elementType: line
+  bounds:
+  - 317.2
+  - 124.8
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-2-hatch-3
+  elementType: line
+  bounds:
+  - 317.2
+  - 140.2
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-2-hatch-4
+  elementType: line
+  bounds:
+  - 317.2
+  - 155.5
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-2-hatch-5
+  elementType: line
+  bounds:
+  - 317.2
+  - 171.0
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-2-hatch-6
+  elementType: line
+  bounds:
+  - 322.6
+  - 186.3
+  - 7.2
+  - 18.8
+  viewBox:
+  - 29.04
+  - 29.04
+  points: 29.04,0 0,29.04
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-2-hatch-7
+  elementType: line
+  bounds:
+  - 328.5
+  - 201.8
+  - 1.3
+  - 3.4
+  viewBox:
+  - 5.28
+  - 5.28
+  points: 5.28,0 0,5.28
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: key-outline-2
+  elementType: shape
+  bounds:
+  - 316.5
+  - 272.2
+  - 14
+  - 96.7
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: key-upper-2-hatch-0
+  elementType: line
+  bounds:
+  - 317.2
+  - 273.9
+  - 5.4
+  - 14.2
+  viewBox:
+  - 22
+  - 22
+  points: 0,22 22,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-2-hatch-1
+  elementType: line
+  bounds:
+  - 317.2
+  - 273.9
+  - 10.8
+  - 28.4
+  viewBox:
+  - 44
+  - 44
+  points: 0,44 44,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-2-hatch-2
+  elementType: line
+  bounds:
+  - 320.4
+  - 283.7
+  - 9.3
+  - 24.5
+  viewBox:
+  - 37.84
+  - 37.84
+  points: 37.84,0 0,37.84
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-2-hatch-3
+  elementType: line
+  bounds:
+  - 325.9
+  - 297.9
+  - 3.9
+  - 10.3
+  viewBox:
+  - 15.84
+  - 15.84
+  points: 15.84,0 0,15.84
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-cached-2
+  elementType: shape
+  bounds:
+  - 316.9
+  - 309.4
+  - 13
+  - 58.6
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#B3261E26'
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+  adjustments:
+  - 12000
+- elementId: key-red-2-hatch-0
+  elementType: line
+  bounds:
+  - 317.3
+  - 310.4
+  - 5.4
+  - 14.2
+  viewBox:
+  - 22
+  - 22
+  points: 0,22 22,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-2-hatch-1
+  elementType: line
+  bounds:
+  - 317.3
+  - 310.4
+  - 10.8
+  - 28.4
+  viewBox:
+  - 44
+  - 44
+  points: 0,44 44,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-2-hatch-2
+  elementType: line
+  bounds:
+  - 317.3
+  - 321.2
+  - 12.2
+  - 32
+  viewBox:
+  - 49.28
+  - 49.28
+  points: 0,49.28 49.28,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-2-hatch-3
+  elementType: line
+  bounds:
+  - 317.6
+  - 335.5
+  - 11.9
+  - 31.3
+  viewBox:
+  - 48.4
+  - 48.4
+  points: 48.4,0 0,48.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-2-hatch-4
+  elementType: line
+  bounds:
+  - 323.0
+  - 349.7
+  - 6.5
+  - 17.1
+  viewBox:
+  - 26.4
+  - 26.4
+  points: 26.4,0 0,26.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-2-hatch-5
+  elementType: line
+  bounds:
+  - 328.5
+  - 363.9
+  - 1.1
+  - 2.9
+  viewBox:
+  - 4.4
+  - 4.4
+  points: 4.4,0 0,4.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-to-value-2
+  elementType: line
+  bounds:
+  - 323.4
+  - 206.8
+  - 0.2
+  - 65.4
+  viewBox:
+  - 0.88
+  - 101.2
+  points: 0.44,101.2 0.44,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: key-width-2
+  elementType: line
+  bounds:
+  - 335.6
+  - 309.4
+  - 0.2
+  - 59.9
+  viewBox:
+  - 0.88
+  - 92.4
+  points: 0.44,0 0.44,92.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+  arrow:
+  - arrow
+  - arrow
+- elementId: key-width-2-top
+  elementType: line
+  bounds:
+  - 333.7
+  - 309.4
+  - 3.9
+  - 0.5
+  viewBox:
+  - 15.84
+  - 0.88
+  points: 0,0.44 15.84,0.44
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+- elementId: key-width-2-bottom
+  elementType: line
+  bounds:
+  - 333.7
+  - 369.1
+  - 3.9
+  - 0.5
+  viewBox:
+  - 15.84
+  - 0.88
+  points: 0,0.44 15.84,0.44
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+- elementId: key-s-2
+  elementType: text
+  bounds:
+  - 337.6
+  - 326.3
+  - 7.6
+  - 23.9
+  content:
+    text: \(s\)
+    fontSize: 22
+    fontFamily: Arial
+    bold: false
+    color: '#B3261E'
+    align:
+    - center
+    - middle
+    wrap: true
+    lineHeight: 1.12
+- elementId: query-2-1
+  elementType: shape
+  bounds:
+  - 307.8
+  - 485.8
+  - 13.9
+  - 63.3
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: query-to-key-2-1
+  elementType: line
+  bounds:
+  - 314.7
+  - 369.1
+  - 8.7
+  - 116.7
+  viewBox:
+  - 35.2
+  - 180.4
+  points: 0,180.4 0,132 35.2,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: query-2-2
+  elementType: shape
+  bounds:
+  - 330.4
+  - 485.8
+  - 13.9
+  - 63.3
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: query-to-key-2-2
+  elementType: line
+  bounds:
+  - 323.4
+  - 369.1
+  - 14
+  - 116.7
+  viewBox:
+  - 56.32
+  - 180.4
+  points: 56.32,180.4 56.32,132 0,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: value-3
+  elementType: shape
+  bounds:
+  - 385.9
+  - 110.1
+  - 14
+  - 96.7
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: value-3-hatch-0
+  elementType: line
+  bounds:
+  - 386.6
+  - 111.7
+  - 5.8
+  - 15.4
+  viewBox:
+  - 23.76
+  - 23.76
+  points: 0,23.76 23.76,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-3-hatch-1
+  elementType: line
+  bounds:
+  - 386.6
+  - 111.7
+  - 11.7
+  - 30.8
+  viewBox:
+  - 47.52
+  - 47.52
+  points: 0,47.52 47.52,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-3-hatch-2
+  elementType: line
+  bounds:
+  - 386.6
+  - 124.8
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-3-hatch-3
+  elementType: line
+  bounds:
+  - 386.6
+  - 140.2
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-3-hatch-4
+  elementType: line
+  bounds:
+  - 386.6
+  - 155.5
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-3-hatch-5
+  elementType: line
+  bounds:
+  - 386.6
+  - 171.0
+  - 12.5
+  - 33
+  viewBox:
+  - 51.04
+  - 51.04
+  points: 0,51.04 51.04,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-3-hatch-6
+  elementType: line
+  bounds:
+  - 391.9
+  - 186.3
+  - 7.2
+  - 18.8
+  viewBox:
+  - 29.04
+  - 29.04
+  points: 29.04,0 0,29.04
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: value-3-hatch-7
+  elementType: line
+  bounds:
+  - 397.8
+  - 201.8
+  - 1.3
+  - 3.4
+  viewBox:
+  - 5.28
+  - 5.28
+  points: 5.28,0 0,5.28
+  curve: sharp
+  border:
+    style: solid
+    width: 1.5
+    color: '#202124'
+- elementId: key-outline-3
+  elementType: shape
+  bounds:
+  - 385.9
+  - 272.2
+  - 14
+  - 96.7
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: key-upper-3-hatch-0
+  elementType: line
+  bounds:
+  - 386.6
+  - 273.9
+  - 5.4
+  - 14.2
+  viewBox:
+  - 22
+  - 22
+  points: 0,22 22,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-3-hatch-1
+  elementType: line
+  bounds:
+  - 386.6
+  - 273.9
+  - 10.8
+  - 28.4
+  viewBox:
+  - 44
+  - 44
+  points: 0,44 44,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-3-hatch-2
+  elementType: line
+  bounds:
+  - 389.8
+  - 283.7
+  - 9.3
+  - 24.5
+  viewBox:
+  - 37.84
+  - 37.84
+  points: 37.84,0 0,37.84
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-upper-3-hatch-3
+  elementType: line
+  bounds:
+  - 395.2
+  - 297.9
+  - 3.9
+  - 10.3
+  viewBox:
+  - 15.84
+  - 15.84
+  points: 15.84,0 0,15.84
+  curve: sharp
+  border:
+    style: solid
+    width: 1.41
+    color: '#202124'
+- elementId: key-cached-3
+  elementType: shape
+  bounds:
+  - 386.3
+  - 309.4
+  - 13
+  - 58.6
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#B3261E26'
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+  adjustments:
+  - 12000
+- elementId: key-red-3-hatch-0
+  elementType: line
+  bounds:
+  - 386.8
+  - 310.4
+  - 5.4
+  - 14.2
+  viewBox:
+  - 22
+  - 22
+  points: 0,22 22,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-3-hatch-1
+  elementType: line
+  bounds:
+  - 386.8
+  - 310.4
+  - 10.8
+  - 28.4
+  viewBox:
+  - 44
+  - 44
+  points: 0,44 44,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-3-hatch-2
+  elementType: line
+  bounds:
+  - 386.8
+  - 321.2
+  - 12.2
+  - 32
+  viewBox:
+  - 49.28
+  - 49.28
+  points: 0,49.28 49.28,0
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-3-hatch-3
+  elementType: line
+  bounds:
+  - 387.0
+  - 335.5
+  - 11.9
+  - 31.3
+  viewBox:
+  - 48.4
+  - 48.4
+  points: 48.4,0 0,48.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-3-hatch-4
+  elementType: line
+  bounds:
+  - 392.4
+  - 349.7
+  - 6.5
+  - 17.1
+  viewBox:
+  - 26.4
+  - 26.4
+  points: 26.4,0 0,26.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-red-3-hatch-5
+  elementType: line
+  bounds:
+  - 397.8
+  - 363.9
+  - 1.1
+  - 2.9
+  viewBox:
+  - 4.4
+  - 4.4
+  points: 4.4,0 0,4.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.23
+    color: '#B3261E'
+- elementId: key-to-value-3
+  elementType: line
+  bounds:
+  - 392.8
+  - 206.8
+  - 0.2
+  - 65.4
+  viewBox:
+  - 0.88
+  - 101.2
+  points: 0.44,101.2 0.44,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: key-width-3
+  elementType: line
+  bounds:
+  - 404.9
+  - 309.4
+  - 0.2
+  - 59.9
+  viewBox:
+  - 0.88
+  - 92.4
+  points: 0.44,0 0.44,92.4
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+  arrow:
+  - arrow
+  - arrow
+- elementId: key-width-3-top
+  elementType: line
+  bounds:
+  - 403.0
+  - 309.4
+  - 3.9
+  - 0.5
+  viewBox:
+  - 15.84
+  - 0.88
+  points: 0,0.44 15.84,0.44
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+- elementId: key-width-3-bottom
+  elementType: line
+  bounds:
+  - 403.0
+  - 369.1
+  - 3.9
+  - 0.5
+  viewBox:
+  - 15.84
+  - 0.88
+  points: 0,0.44 15.84,0.44
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#B3261E'
+- elementId: key-s-3
+  elementType: text
+  bounds:
+  - 408.8
+  - 326.3
+  - 7.6
+  - 23.9
+  content:
+    text: \(s\)
+    fontSize: 22
+    fontFamily: Arial
+    bold: false
+    color: '#B3261E'
+    align:
+    - center
+    - middle
+    wrap: true
+    lineHeight: 1.12
+- elementId: query-3-1
+  elementType: shape
+  bounds:
+  - 377.2
+  - 485.8
+  - 13.9
+  - 63.3
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: query-to-key-3-1
+  elementType: line
+  bounds:
+  - 384.2
+  - 369.1
+  - 8.7
+  - 116.7
+  viewBox:
+  - 35.2
+  - 180.4
+  points: 0,180.4 0,132 35.2,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: query-3-2
+  elementType: shape
+  bounds:
+  - 399.7
+  - 485.8
+  - 13.9
+  - 63.3
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1.94
+    color: '#202124'
+  adjustments:
+  - 12000
+- elementId: query-to-key-3-2
+  elementType: line
+  bounds:
+  - 392.8
+  - 369.1
+  - 14
+  - 116.7
+  viewBox:
+  - 56.32
+  - 180.4
+  points: 56.32,180.4 56.32,132 0,0
+  curve: sharp
+  border:
+    style: dash
+    width: 1.76
+    color: '#202124'
+- elementId: latent-r-arrow
+  elementType: line
+  bounds:
+  - 630.5
+  - 273.9
+  - 6.8
+  - 279.3
+  viewBox:
+  - 6.8
+  - 279.3
+  points: 3.044,0 3.044,279.3
+  curve: sharp
+  border:
+    width: 1.58
+    color: '#202124'
+    style: dash
+  arrow:
+  - arrow
+  - arrow
+- elementId: latent-r-arrow-top
+  elementType: line
+  bounds:
+  - 628.0
+  - 273.5
+  - 11.9
+  - 0.8
+  viewBox:
+  - 15.84
+  - 0.88
+  points: 0,0.44 15.84,0.44
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#202124'
+- elementId: latent-r-arrow-bottom
+  elementType: line
+  bounds:
+  - 628.0
+  - 552.8
+  - 11.9
+  - 0.8
+  viewBox:
+  - 15.84
+  - 0.88
+  points: 0,0.44 15.84,0.44
+  curve: sharp
+  border:
+    style: solid
+    width: 1.58
+    color: '#202124'
+- elementId: latent-r
+  elementType: text
+  bounds:
+  - 637.3
+  - 379.3
+  - 22.4
+  - 42
+  content:
+    text: \(r\)
+    fontSize: 23.8
+    fontFamily: Arial
+    bold: false
+    color: '#202124'
+    align:
+    - center
+    - middle
+    wrap: true
+    lineHeight: 1.12
+- elementId: latent-label
+  elementType: text
+  bounds:
+  - 488.6
+  - 206.8
+  - 290.7
+  - 61.4
+  content:
+    text: <p>layer-wise shared latent </p>
+    fontSize: 23.8
+    fontFamily: Arial
+    bold: false
+    color: '#202124'
+    align:
+    - center
+    - middle
+    wrap: true
+    lineHeight: 1.12
+- elementId: head-specific-k
+  elementType: text
+  bounds:
+  - 462.0
+  - 317.2
+  - 140
+  - 82
+  content:
+    text: <p>head-specific</p><p>\(U_j^K\in\mathbb{R}^{r\times s}\)</p><p>\(j=1,2,3\)</p>
+    fontSize: 18
+    fontFamily: Arial
+    bold: false
+    color: '#202124'
+    align:
+    - left
+    - middle
+    wrap: true
+    lineHeight: 1.15
+- elementId: head-specific-q
+  elementType: text
+  bounds:
+  - 462.0
+  - 458.3
+  - 140
+  - 80.8
+  content:
+    text: <p>head-specific</p><p>\(U_h^Q\in\mathbb{R}^{r\times s}\)</p><p>\(h=1,\ldots,6\)</p>
+    fontSize: 18
+    fontFamily: Arial
+    bold: false
+    color: '#202124'
+    align:
+    - left
+    - middle
+    wrap: true
+    lineHeight: 1.15
+- elementId: H6G9lN
+  elementType: shape
+  bounds:
+  - 605.1
+  - 272.2
+  - 14.7
+  - 281
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#ffffffff'
+  border:
+    width: 2
+    color: '#333333ff'
+    style: solid
+- elementId: DV1sy1
+  elementType: line
+  bounds:
+  - 454.9
+  - 293.2
+  - 132.6
+  - 11.7
+  viewBox:
+  - 132.64856933235512
+  - 11.738811445341184
+  points: 0,11.739 127.647,2.759
+  border:
+    color: '#202124'
+    style: solid
+    width: 6
+  arrow:
+  - null
+  - null
+- elementId: rx6gjj
+  elementType: line
+  bounds:
+  - 455.7
+  - 539.1
+  - 126.8
+  - 14.1
+  viewBox:
+  - 126.77916360968447
+  - 14.086573734409399
+  points: 0,14.086573734409399 126.77916360968447,0
+  border:
+    color: '#202124'
+    style: solid
+    width: 6
+  arrow:
+  - null
+  - null
+- elementId: Pxrwf3
+  elementType: text
+  bounds:
+  - 468.0
+  - 268.2
+  - 120.5
+  - 36.5
+  content:
+    text: '<p><span style="font-size: 20px;"><strong>projection</strong></span></p>'
+    align:
+    - left
+    - top
+    fontSize: 20
+- elementId: F6Qrj_
+  elementType: line
+  bounds:
+  - 447.6
+  - 528.0
+  - 172.2
+  - 25.2
+  viewBox:
+  - 172.2
+  - 25.20000000000003
+  points: 7.031,25.2 0,25.2
+  border:
+    style: solid
+    color: '#202124'
+    width: 2
+  arrow:
+  - null
+  - triangle
+- elementId: 7VVyAA
+  elementType: line
+  bounds:
+  - 447.6
+  - 279.7
+  - 172.2
+  - 25.2
+  viewBox:
+  - 172.2
+  - 25.20000000000003
+  points: 7.031,25.2 0,25.2
+  border:
+    style: solid
+    color: '#202124'
+    width: 2
+  arrow:
+  - null
+  - triangle

@@ -1,0 +1,47 @@
+experiment_group: gpt2_c4_cross_domain_validation
+task: autoregressive_language_modeling
+dataset:
+  corpus: c4_realnewslike
+  cache_format: fixed_tokenized_chunks
+  sequence_length: 1024
+  approx_train_chunks: 7730000
+  approx_val_chunks: 38900
+model:
+  family: gpt2
+  variant: gpt2_small_style
+  hidden_size: 768
+  num_layers: 12
+  num_heads: 12
+  head_dim: 64
+training:
+  max_steps: 50000
+  comparison_window_steps: 12000
+  comparison_window_gpu_hours: 55
+  per_device_batch_size: 32
+  gradient_accumulation_steps: 16
+  optimizer: adamw_torch_fused
+  learning_rate: 0.00025
+  lr_scheduler: cosine
+  warmup_steps: 2000
+  weight_decay: 0.0
+  betas: [0.9, 0.999]
+  max_grad_norm: 1.0
+  bf16: true
+  gradient_checkpointing: true
+  eval_steps: 500
+  seed: 42
+hardware:
+  reference_setup: single_gpu_per_run
+  gpu_class: 80gb_accelerator
+compared_methods:
+  - baseline
+  - fullyshared
+  - partialshared_r728
+  - lowrank_r32
+  - bbt_r64
+  - bmbuv_r32s32
+  - bmbuv_r64s64
+  - bmb_r64
+notes:
+  - "GPT-2/C4 PartShr uses the paper setting r_s=728."
+  - "The ImageNet and GPT-2/C4 PartShr entries are both reported with the 728 setting."

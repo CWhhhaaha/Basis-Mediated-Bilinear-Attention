@@ -1,0 +1,12 @@
+version: v2
+title: We take GQA as an Example
+size:
+- 816
+- 590
+theme:
+  colors:
+    primary: '#202124'
+    text: '#202124'
+    accent: '#B3261E'
+pages:
+- pages/1_gqa_bmbuv_cache.page

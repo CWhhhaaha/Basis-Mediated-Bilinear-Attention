@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bmb-attention"
+version = "1.2.0"
+description = "Training-time BMB/BMB-UV attention, GQA integration, and reproduction recipes"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["torch>=2.5"]
+
+[project.optional-dependencies]
+train = [
+  "numpy>=1.26",
+  "torchvision>=0.20",
+  "transformers>=4.46,<4.57",
+  "datasets>=2.19",
+  "accelerate>=0.29",
+  "tqdm>=4.66",
+  "tiktoken>=0.7",
+]
+eval = ["lm-eval>=0.4.7"]
+test = ["pytest>=8"]
+fa4 = ["flash-attn-4>=4.0.0b38,<5"]
+
+[project.urls]
+Repository = "https://github.com/CWhhhaaha/Basis-Mediated-Bilinear-Attention"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
